@@ -3,11 +3,21 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --lavender-stitch: #CDCEF8;
+  --blush-yarn: #FFC8DD;
+  --petal-loop: #FFAFCC;
+  --sky-skein: #BDE0FE;
+  --periwinkle-cast: #A2D2FF;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-lavender-stitch: var(--lavender-stitch);
+  --color-blush-yarn: var(--blush-yarn);
+  --color-petal-loop: var(--petal-loop);
+  --color-sky-skein: var(--sky-skein);
+  --color-periwinkle-cast: var(--periwinkle-cast);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
